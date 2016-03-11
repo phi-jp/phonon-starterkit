@@ -1,0 +1,19 @@
+subpage
+  header.header-bar
+    div.left
+      button.btn.pull-left.icon.icon-arrow-back(data-navigation="$previous-page")
+    div.center
+      h1.title サブページだよー
+  div.content
+    ul.list
+      li.divider {name}
+
+  script.
+    var self = this;
+    this.on('close', function(e) {
+      e.close();
+    });
+    this.on('hashchanged', function(name) {
+        self.name = name
+        self.update()
+    })
