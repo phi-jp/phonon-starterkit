@@ -1,0 +1,29 @@
+{
+  "name": "phonon-starterkit",
+  "version": "1.0.0",
+  "description": "phonon starterkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phi-jp/phonon-starterkit.git"
+  },
+  "keywords": [
+    "phonon"
+  ],
+  "author": "phi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phi-jp/phonon-starterkit/issues"
+  },
+  "homepage": "https://github.com/phi-jp/phonon-starterkit#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-riot": "^0.4.8",
+    "jade": "^1.11.0",
+    "less": "^2.6.1"
+  }
+}
